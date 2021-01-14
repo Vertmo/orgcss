@@ -23,9 +23,9 @@ body {
     }
 }
 
-@media screen and (min-width: 910px) {
+@media screen and (min-width: 1210px) {
     body {
-        width: 900px;
+        width: 1200px;
     }
 }
 
@@ -43,6 +43,10 @@ ol,ul {
 
 dl {
     margin: 0 auto;
+}
+
+code {
+    white-space: nowrap;
 }
 
 .title {
@@ -127,7 +131,7 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #A5573E;
+    color: #2F5233;
     line-height: 1em;
     font-family: $sans;
 }
@@ -583,6 +587,15 @@ p.verse {
 }
 .org-src-container>pre.src-rust:before {
     content: 'Rust';
+}
+.org-src-container>pre.src-lustre:before {
+    content: 'Lustre';
+}
+.org-src-container>pre.src-coq:before {
+    content: 'Coq';
+}
+.org-src-container>pre.src-ocaml:before {
+    content: 'OCaml';
 }
 
 .inlinetask {
